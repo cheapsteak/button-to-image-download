@@ -66,7 +66,6 @@ class App extends React.Component {
               max-width: calc(100% - 50px);
             `}
             type="text"
-            label="Button Text"
             placeholder="Button Text"
             value={this.state.text}
             onChange={e => this.setState({ text: e.target.value })}
